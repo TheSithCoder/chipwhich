@@ -1,5 +1,5 @@
-CREATE DATABASE chipwhich;
-USE chipwhich;
+CREATE DATABASE chipwhiches;
+USE chipwhiches;
 CREATE TABLE transactionRecords(
 transactionNumber int not null auto_increment,
 name varchar(255),
