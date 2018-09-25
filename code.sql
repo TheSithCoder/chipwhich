@@ -6,6 +6,6 @@ name varchar(255),
 startingPrice float,
 finalPrice float,
 PRIMARY KEY (transactionNumber));
-INSERT INTO transactionRecords VALUES (null, "Liam BOI", 150, 180);
+INSERT INTO transactionRecords VALUES (null, "A Name", 150, 180);
 SELECT * FROM transactionRecords;
 SELECT * FROM transactionRecords WHERE transactionNumber = 1;
